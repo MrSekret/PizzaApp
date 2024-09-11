@@ -1,0 +1,47 @@
+.product {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.button {
+    margin-left: auto;
+    position: relative;
+    padding-left: 35px;
+}
+.buttonImg {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 20px;
+}
+.footer {
+    display: flex;
+}
+.img {
+    border-radius: 24px;
+    max-width: 416px;
+    margin-right: 36px;
+}
+.textblock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 208px;
+}
+.price,
+.rating {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+}
+.ingredients {
+    color: var(--text-secondary-color);
+}
+.ingredients ul {
+    padding-left: 25px;
+}

@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.field label {
+    color: #c4c4c4;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-secondary-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+.links a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.error {
+    background: rgb(209, 117, 31);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
